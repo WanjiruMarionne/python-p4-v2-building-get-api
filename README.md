@@ -64,7 +64,7 @@ $ cd server
 $ flask db init
 $ flask db migrate -m 'initial migration'
 $ flask db upgrade head
-$ python seed.py
+$ python3 seed.py
 $ export FLASK_APP=app.py
 $ export FLASK_RUN_PORT=5555
 ```
@@ -78,7 +78,7 @@ look like in our ERD:
 Then, run the server:
 
 ```console
-$ python app.py
+$ python3 app.py
 ```
 
 With that set up, let's work on getting Flask and SQLAlchemy working together!
